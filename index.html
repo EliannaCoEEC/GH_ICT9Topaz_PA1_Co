@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body id="page">
+
+<h1><i>Quote of the Day:</i></h1>
+
+<script>
+  const box = document.createElement("div");
+
+  box.textContent = `“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”
+— Marilyn Monroe`;
+
+  box.style.width = "350px";
+  box.style.padding = "20px";
+  box.style.backgroundColor = "beige";
+  box.style.border = "2px solid black";
+  box.style.borderRadius = "10px";
+  box.style.fontSize = "18px";
+  box.style.textAlign = "center";
+  box.style.fontFamily = "Georgia, serif";
+  box.style.color = "#222";
+  box.style.lineHeight = "1.6";
+  box.style.textAlign = "center";
+  box.style.fontWeight = "bold";
+  box.style.fontStyle = "italic";
+
+  document.body.appendChild(box);
+
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/1200x/ae/10/6e/ae106e4abacb9ad2dd874805b4640205.jpg')";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundPosition = "center";
+</script>
+
+</body>
+</html>
